@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OG STORE</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin:0; padding:0; font-family: 'Roboto', sans-serif; }
+    html, body { height: 100%; margin: 0; padding: 0; }
+    body { 
+      background: url('https://drive.google.com/uc?export=view&id=1e_0gjSQqFSLwR3c-gXxSrWFEuiYhlzty') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff; 
+      line-height: 1.6; 
+      position: relative;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      top:0; left:0; right:0; bottom:0;
+      background: rgba(0,0,0,0.4);
+      z-index: 0;
+    }
+    header { 
+      background: rgba(0,0,0,0.6); 
+      color: #ffcc00;
+      padding: 25px 10px; 
+      text-align: center; 
+      position: relative;
+      z-index: 1;
+    }
+    header h1 { font-size: 2rem; margin-bottom: 15px; text-transform: uppercase; }
+    .btn-tiktok, .btn-whatsapp { 
+      display: inline-block; margin: 10px 5px; padding: 12px 20px; border-radius: 8px; font-weight: bold; cursor: pointer; transition: 0.3s; text-transform: uppercase; position: relative; z-index:1;
+    }
+    .btn-tiktok { background: #ff0050; color: #fff; font-size: 1rem; }
+    .btn-tiktok:hover { background: #e60044; }
+    .btn-whatsapp { background: #25D366; color: #fff; font-size: 1rem; }
+    .btn-whatsapp:hover { background: #1ebe5d; }
+
+    .info-puntos { margin: 20px 0; display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; position: relative; z-index: 1; }
+    .info-puntos div { background: rgba(0,0,0,0.6); color: #fff; padding: 10px 15px; border-radius: 6px; font-weight: bold; text-transform: uppercase; }
+
+    .confianza { margin-top: 15px; font-size: 1.1rem; font-weight: bold; text-transform: uppercase; color: #ffcc00; position: relative; z-index: 1; }
+
+    main { max-width: 1200px; margin: 40px auto; padding: 0 10px; position: relative; z-index:1; }
+    .productos { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px,1fr)); gap: 25px; }
+
+    .card { 
+      background: rgba(255,255,255,0.9); 
+      color: #111; 
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15); 
+      border-radius: 12px; 
+      padding: 20px; 
+      display: flex; 
+      flex-direction: column; 
+      justify-content: space-between; 
+      transition: transform 0.3s; 
+      position: relative;
+      z-index:1;
+    }
+    .card:hover { transform: translateY(-5px); }
+    .card h2 { color: #111; text-align: center; text-transform: uppercase; margin-bottom: 12px; }
+    .card ul { list-style: disc; padding-left: 20px; text-transform: uppercase; margin-bottom: 12px; }
+    .card ul li { color: #111; margin-bottom: 5px; }
+    .precio { font-weight: bold; color: #e60000; text-align: center; margin-bottom: 12px; }
+    .card img { width: 100%; border-radius: 12px; margin-bottom: 12px; }
+
+    footer { background: rgba(0,0,0,0.6); color: #fff; text-align: center; padding: 25px 10px; margin-top: 50px; position: relative; z-index:1; }
+    footer .btn-whatsapp { margin-top: 15px; display: inline-block; }
+
+    @media (max-width:600px){
+      header h1 { font-size:1.6rem; }
+      .btn-tiktok, .btn-whatsapp { font-size:0.9rem; padding:10px 15px; }
+      .card h2 { font-size:1.1rem; }
+      .precio { font-size:1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>OG STORE</h1>
+    <a href="https://www.tiktok.com/@ogstorepyy_?_t=ZM-8zYeTqDl2bY&_r=1" target="_blank" class="btn-tiktok">
+      MIRA NUESTRAS ENTREGAS Y PRODUCTOS REALES EN TIKTOK (CLICK ACÁ) ✅
+    </a>
+    <div class="info-puntos">
+      <div>✅ FACTURA LEGAL</div>
+      <div>🚚 ENVÍOS A TODO EL PAÍS (A LA CIUDAD QUE ESTÉS)</div>
+      <div><a href="https://walink.co/fdeded" target="_blank" class="btn-whatsapp">📲 WHATSAPP</a></div>
+    </div>
+    <div class="confianza">COMPRA SEGURO… COMPRA CON OG STORE ✅</div>
+  </header>
+
+  <main>
+    <div class="productos">
+      <!-- PS4 1TB -->
+      <div class="card">
+        <img src="https://drive.google.com/file/d/1NiA6jkugEF2JUzPJ4xLZNHmcKivXFOx3/view?usp=drivesdk" alt="PlayStation 4 1TB">
+        <h2>PlayStation 4 1TB</h2>
+        <ul>
+          <li>1 CONTROL ORIGINAL</li>
+          <li>JUEGOS INCLUIDOS EN LA CONSOLA</li>
+          <li>MANTENIMIENTO RECIÉN HECHO</li>
+          <li>GARANTÍA 30 DÍAS</li>
+          <li>ENVÍO GRATIS (A LA CIUDAD QUE ESTÉS)</li>
+          <li>FACTURA LEGAL DISPONIBLE</li>
+        </ul>
+        <div class="precio">1.500.000GS – 1.700.000GS</div>
+        <a href="https://wa.me/595984553133?text=Hola%20Tiago!%20Estoy%20muy%20interesado%20en%20la%20PS4%201TB%20😎🎮" target="_blank" class="btn-whatsapp">COMPRAR POR WHATSAPP</a>
+      </div>
+
+      <!-- PlayStation 4 500GB -->
+      <div class="card">
+        <img src="https://drive.google.com/file/d/1NiA6jkugEF2JUzPJ4xLZNHmcKivXFOx3/view?usp=drivesdk" alt="PlayStation 4 500GB">
+        <h2>PlayStation 4 500GB</h2>
+        <ul>
+          <li>1 CONTROL ORIGINAL</li>
+          <li>JUEGOS INCLUIDOS EN LA CONSOLA</li>
+          <li>MANTENIMIENTO RECIÉN HECHO</li>
+          <li>GARANTÍA 30 DÍAS</li>
+          <li>ENVÍO GRATIS (A LA CIUDAD QUE ESTÉS)</li>
+          <li>FACTURA LEGAL DISPONIBLE</li>
+        </ul>
+        <div class="precio">1.300.000GS – 1.500.000GS</div>
+        <a href="https://wa.me/595984553133?text=Hola%20Tiago!%20Estoy%20muy%20interesado%20en%20la%20PS4%20500GB%20😎🎮" target="_blank" class="btn-whatsapp">COMPRAR POR WHATSAPP</a>
+      </div>
+
+      <!-- PlayStation 3 500GB -->
+      <div class="card">
+        <img src="https://drive.google.com/file/d/1n9M0yQN9ZnizuGd_Mja9StovQWJENusR/view?usp=drivesdk" alt="PlayStation 3 500GB">
+        <h2>PlayStation 3 500GB</h2>
+        <ul>
+          <li>2 CONTROLES NUEVOS</li>
+          <li>50 JUEGOS CARGADOS (SE PUEDE ELEGIR ENTRE 40-50)</li>
+          <li>MANTENIMIENTO RECIÉN HECHO</li>
+          <li>GARANTÍA 30 DÍAS</li>
+          <li>ENVÍO GRATIS (A LA CIUDAD QUE ESTÉS)</li>
+          <li>FACTURA LEGAL DISPONIBLE</li>
+        </ul>
+        <div class="precio">990.000GS</div>
+        <a href="https://wa.me/595984553133?text=Hola%20Tiago!%20Estoy%20muy%20interesado%20en%20la%20PS3%20500GB%20😎🎮" target="_blank" class="btn-whatsapp">COMPRAR POR WHATSAPP</a>
+      </div>
+
+      <!-- PlayStation 3 250GB -->
+      <div class="card">
+        <img src="https://drive.google.com/file/d/1n9M0yQN9ZnizuGd_Mja9StovQWJENusR/view?usp=drivesdk" alt="PlayStation 3 250GB">
+        <h2>PlayStation 3 250GB</h2>
+        <ul>
+          <li>2 CONTROLES NUEVOS</li>
+          <li>25 JUEGOS CARGADOS (SE PUEDE ELEGIR ENTRE 15-25)</li>
+          <li>MANTENIMIENTO RECIÉN HECHO</li>
+          <li>GARANTÍA 30 DÍAS</li>
+          <li>ENVÍO GRATIS (A LA CIUDAD QUE ESTÉS)</li>
+          <li>FACTURA LEGAL DISPONIBLE</li>
+        </ul>
+        <div class="precio">900.000GS</div>
+        <a href="https://wa.me/595984553133?text=Hola%20Tiago!%20Estoy%20muy%20interesado%20en%20la%20PS3%20250GB%20😎🎮" target="_blank" class="btn-whatsapp">COMPRAR POR WHATSAPP</a>
+      </div>
+
+      <!-- PS2 -->
+      <div class="card">
+        <img src="https://drive.google.com/file/d/1qEP6MRDmDILQiZPK1zdd2W8kXzsGFeMW/view?usp=drivesdk" alt="PlayStation 2">
+        <h2>PlayStation 2</h2>
+        <ul>
+          <li>2 CONTROLES NUEVOS</li>
+          <li>PENDRIVE 32GB CON JUEGOS A ELECCIÓN</li>
+          <li>MEMORY CONFIGURADO</li>
+          <li>MANTENIMIENTO RECIÉN HECHO</li>
+          <li>GARANTÍA 30 DÍAS</li>
+          <li>ENVÍO GRATIS (A LA CIUDAD QUE ESTÉS)</li>
+          <li>FACTURA LEGAL DISPONIBLE</li>
+        </ul>
+        <div class="precio">400.000GS</div>
+        <a href="https://wa.me/595984553133?text=Hola%20Tiago!%20Estoy%20muy%20interesado%20en%20la%20PlaySation2%20😎🎮" target="_blank" class="btn-whatsapp">COMPRAR POR WHATSAPP</a>
+      </div>
+
+      <!-- CONTROLES -->
+      <div class="card">
+        <h2>CONTROL PS3 NUEVO</h2>
+        <ul><li>CONTROL GENÉRICO NUEVO EN CAJA</li></ul>
+        <div class="precio">90.000GS</div>
+        <a href="https://wa.me/595984553133?text=Hola%20Tiago!%20Estoy%20interesado%20en%20un%20CONTROL%20PS3%20NUEVO%20😎🎮" target="_blank" class="btn-whatsapp">COMPRAR POR WHATSAPP</a>
+      </div>
+
+      <div class="card">
+        <h2>CONTROL PS4 NUEVO</h2>
+        <ul><li>CONTROL GENÉRICO NUEVO EN CAJA</li></ul>
+        <div class="precio">120.000GS</div>
+        <a href="https://wa.me/595984553133?text=Hola%20Tiago!%20Estoy%20interesado%20en%20un%20CONTROL%20PS4%20NUEVO%20😎🎮" target="_blank" class="btn-whatsapp">COMPRAR POR WHATSAPP</a>
+      </div>
+
+      <div class="card">
+        <h2>CONTROL PS4 ORIGINAL SEMINUEVO</h2>
+        <ul><li>CONTROL ORIGINAL SEMINUEVO</li></ul>
+        <div class="precio">280.000GS</div>
+        <a href="https://wa.me/595984553133?text=Hola%20Tiago!%20Estoy%20interesado%20en%20un%20CONTROL%20PS4%20ORIGINAL%20SEMINUEVO%20😎🎮" target="_blank" class="btn-whatsapp">COMPRAR POR WHATSAPP</a>
+      </div>
+
+      <!-- BOTÓN GRUPO -->
+      <div class="card">
+        <h2>ÚNETE A NUESTRO GRUPO</h2>
+        <a href="https://chat.whatsapp.com/EUhruCX2EmPGJasKZag9B2?mode=wwt" target="_blank" class="btn-whatsapp">GRUPO DE WHATSAPP</a>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div>OG STORE - Todos los derechos reservados ©️ 2025</div>
+    <a href="https://walink.co/fdeded" target="_blank" class="btn-whatsapp">📲 CONSULTA POR WHATSAPP</a>
+  </footer>
+
+</body>
+</html>
